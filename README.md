@@ -6,7 +6,6 @@
 - HTML5
 - CSS3
 - JS  ES6+7
-<br/>
  ======Frameworks======
  <br/>
  - Bootstrap
