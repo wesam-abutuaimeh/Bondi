@@ -7,13 +7,12 @@
 - CSS3
 - JS  ES6+7
 <br/>
- ======Frameworks======<br/>
-
+ ======Frameworks======
+ <br/>
  - Bootstrap
  <br/>
-
- ======Libraries=======<br/>
-
+ ======Libraries=======
+ <br/>
 - Font Awesome
 - Google Fonts
 
