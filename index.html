@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bondi</title>
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/bondi.css" />
+    <!-- Google Fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;900&family=Noto+Sans+Arabic:wght@400;500;700;900&family=Poppins:ital,wght@0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;900&family=Noto+Sans+Arabic:wght@400;500;700;900&family=Poppins:ital,wght@0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;500&family=Tajawal:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="assets/imgs/Logo.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!-- Start Preloader -->
+    <div class="preloader position-fixed w-100" id="preloader">
+      <div class="spinner-border text-warning" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+    <!-- End Preloader -->
+    <!-- Start Header -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img src="assets/imgs/Logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars fa-fw"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#landing-section"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item text-capitalize">
+              <a class="nav-link" href="#services">services</a>
+            </li>
+            <li class="nav-item text-capitalize">
+              <a class="nav-link" href="#gallery ">gallery </a>
+            </li>
+            <li class="nav-item text-capitalize">
+              <a class="nav-link" href="#team-member">team member</a>
+            </li>
+            <li class="nav-item text-capitalize">
+              <a class="nav-link" href="#blog">blog</a>
+            </li>
+          </ul>
+          <a
+            class="login-btn btn rounded-pill pe-3 ps-3 ms-3 me-3 text-capitalize"
+            href="#"
+            >login</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- End Header -->
+    <!-- Start Landing Section -->
+    <section
+      class="landing-section text-center d-flex justify-content-center align-items-center"
+      id="landing-section"
+    >
+      <div class="txt">
+        <h1>Taste the Creativity</h1>
+        <p>We make awesome graphic and web design</p>
+        <a class="btn rounded-pill mt-5" href="#services ">Get Started</a>
+      </div>
+    </section>
+    <!-- End Landing Section -->
+    <!-- Start Services Section -->
+    <section class="services pt-5 pb-5" id="services">
+      <div class="container text-center">
+        <div
+          class="section-title d-flex align-items-center flex-column mt-5 mb-5"
+        >
+          <img
+            class="mb-5"
+            src="assets/imgs/composite-path-yellow.png"
+            alt="composite-path"
+          />
+          <h2 class="text-capitalize">we are good at</h2>
+          <span class="sub-heading text-uppercase"
+            >some of these stuff under</span
+          >
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mt-5">
+            <div class="feature">
+              <div
+                class="icons-container d-flex flex-column align-items-center"
+              >
+                <i class="fa-solid fa-1 font-weight-bolder fa-fw number"></i
+                ><i class="fa-solid fa-pencil fa-fw shape"></i>
+              </div>
+              <h4 class="mt-3 text-capitalize">graphic design</h4>
+              <p>
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                justo, lacinia eget consectetur sed, convallis at tellus.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-5">
+            <div class="feature">
+              <div
+                class="icons-container d-flex flex-column align-items-center"
+              >
+                <i class="fa-solid fa-2 font-weight-bolder fa-fw number"></i
+                ><i class="fa-solid fa-laptop fa-fw shape"></i>
+              </div>
+              <h4 class="mt-3 text-capitalize">WEB DESIGN</h4>
+              <p>
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                justo, lacinia eget consectetur sed, convallis at tellus.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-5">
+            <div class="feature">
+              <div
+                class="icons-container d-flex flex-column align-items-center"
+              >
+                <i class="fa-solid fa-3 font-weight-bolder fa-fw number"></i
+                ><i class="fa-solid fa-tablet-screen-button fa-fw shape"></i>
+              </div>
+              <h4 class="mt-3 text-capitalize">APP DESIGN</h4>
+              <p>
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                justo, lacinia eget consectetur sed, convallis at tellus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services Section -->
+    <!-- Start Gallery Section -->
+    <section class="gallery pt-5 pb-5" id="gallery">
+      <div class="container">
+        <div
+          class="section-title d-flex align-items-center flex-column mt-5 mb-5"
+        >
+          <img
+            class="mb-5"
+            src="assets/imgs/composite-path-yellow.png"
+            alt="composite-path"
+          />
+          <h2 class="text-capitalize">We Make This</h2>
+          <span class="sub-heading text-uppercase">PREPARE TO BE AMAZED</span>
+        </div>
+        <div class="gallery-area">
+          <ul
+            id="filter"
+            class="filter list-unstyled d-flex justify-content-center mt-5 mb-5"
+          >
+            <li class="active">all</li>
+            <li>design</li>
+            <li>code</li>
+            <li>photography</li>
+            <li>apps</li>
+          </ul>
+          <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="box mb-3 bg-white"
+                data-work="Application"
+                data-target="design"
+              >
+                <img
+                  class="img-fluid"
+                  src="assets/imgs/work-01.jpg"
+                  alt="Work"
+                />
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="box mb-3 bg-white"
+                data-work="Web Design"
+                data-target="design"
+              >
+                <img
+                  class="img-fluid"
+                  src="assets/imgs/work-02.jpg"
+                  alt="Work"
+                />
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="box mb-3 bg-white"
+                data-work="Responsive Web Sites"
+                data-target="code"
+              >
+                <img
+                  class="img-fluid"
+                  src="assets/imgs/work-03.jpg"
+                  alt="Work"
+                />
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="box mb-3 bg-white"
+                data-work="Buying Laptops"
+                data-target="code"
+              >
+                <img
+                  class="img-fluid"
+                  src="assets/imgs/work-04.jpg"
+                  alt="Work"
+                />
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="box mb-3 bg-white"
+                data-work="Web Maintenance"
+                data-target="photography"
+              >
+                <img
+                  class="img-fluid"
+                  src="assets/imgs/work-05.jpg"
+                  alt="Work"
+                />
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="box mb-3 bg-white"
+                data-work="Website Development"
+                data-target="photography"
+              >
+                <img
+                  class="img-fluid"
+                  src="assets/imgs/work-06.jpg"
+                  alt="Work"
+                />
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="box mb-3 bg-white"
+                data-work="JS Apps"
+                data-target="apps"
+              >
+                <img
+                  class="img-fluid"
+                  src="assets/imgs/work-07.jpg"
+                  alt="Work"
+                />
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="box mb-3 bg-white"
+                data-work="Data Since"
+                data-target="apps"
+              >
+                <img
+                  class="img-fluid"
+                  src="assets/imgs/work-08.jpg"
+                  alt="Work"
+                />
+              </div>
+            </div>
+          </div>
+          <a class="more-btn btn text-center" href="gallery.html" target="_self"
+            >I WANT MORE...</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- End Gallery Section -->
+    <!-- Start Testimonial Section -->
+    <secttion class="testimonial" id="testimonial">
+      <div class="container pt-5 pb-5">
+        <div
+          class="section-title d-flex align-items-center flex-column mt-5 mb-5"
+        >
+          <img
+            class="mb-5"
+            src="assets/imgs/composite-path-yellow.png"
+            alt="composite-path"
+          />
+          <h2 class="text-capitalize">Some Stuff About Us</h2>
+          <span class="sub-heading text-uppercase">THE GREAT TEAM</span>
+          <p>
+            Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit,
+            eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta
+            dapibus. Proin eget tortor risus. Donec sollicitudin molestie
+            malesuada.
+          </p>
+        </div>
+        <div class="row">
+          <div
+            class="more-info d-flex justify-content-space-between align-items-center mt-5"
+          >
+            <div class="txt-info">
+              <h4 class="mb-5">Retina Design</h4>
+              <p>
+                Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+                dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
+                a. Donec rutrum congue leo eget malesuada. Mauris blandit
+                aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in
+                ipsum id orci porta dapibus. Proin eget tortor risus. Donec
+                sollicitudin molestie malesuada.
+              </p>
+            </div>
+            <div class="image">
+              <img
+                class="img-fluid"
+                src="assets/imgs/MacBook.png"
+                alt="MacBook"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </secttion>
+    <!-- End Testimonial Section -->
+    <!-- Start Team Member -->
+    <section class="team-member" id="team-member">
+      <div class="container pt-5 pb-5"">
+      <div
+        class="section-title d-flex align-items-center flex-column mt-3 mb-3"
+      >
+        <h2 class="text-capitalize">Meet The Team</h2>
+      </div>
+      <div class="row text-center">
+        <div class="box col-sm-6 col-md-4 col-lg-3">
+          <img
+            class="img-fluid"
+            src="assets/imgs/team01.jpg"
+            alt="team member"
+          />
+          <h4>Luke Skywalker</h4>
+          <blockquote class="pt-3 pb-3">
+            <q
+              >I don't understand how we got by those troops. I thought we were
+              dead.</q
+            >
+          </blockquote>
+        </div>
+        <div class="box col-sm-6 col-md-4 col-lg-3">
+          <img
+            class="img-fluid"
+            src="assets/imgs/team02.jpg"
+            alt="team member"
+          />
+          <h4>Obi-Wan Kenobi</h4>
+          <blockquote class="pt-3 pb-3">
+            <q
+              >I don't understand how we got by those troops. I thought we were
+              dead.</q
+            >
+          </blockquote>
+        </div>
+        <div class="box col-sm-6 col-md-4 col-lg-3">
+          <img
+            class="img-fluid"
+            src="assets/imgs/team03.jpg"
+            alt="team member"
+          />
+          <h4>Princess Leia</h4>
+          <blockquote class="pt-3 pb-3">
+            <q
+              >I don't understand how we got by those troops. I thought we were
+              dead.</q
+            >
+          </blockquote>
+        </div>
+        <div class="box col-sm-6 col-md-4 col-lg-3">
+          <img
+            class="img-fluid"
+            src="assets/imgs/team04.jpg"
+            alt="team member"
+          />
+          <h4>Yoda</h4>
+          <blockquote class="pt-3 pb-3">
+            <q
+              >I don't understand how we got by those troops. I thought we were
+              dead.</q
+            >
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    <!-- End Team Member -->
+    <!-- Start Partners Section -->
+    <section class="partners" id="partners">
+      <div
+        class="container d-flex justify-content-center align-items-center pt-5 pb-5"
+      >
+        <img
+          src="assets/imgs/partners01.png"
+          alt="partners"
+          class="img-fluid mx-5"
+        />
+        <img
+          src="assets/imgs/partners02.png"
+          alt="partners"
+          class="img-fluid mx-5"
+        />
+        <img
+          src="assets/imgs/partners03.png"
+          alt="partners"
+          class="img-fluid mx-5"
+        />
+        <img
+          src="assets/imgs/partners04.png"
+          alt="partners"
+          class="img-fluid mx-5"
+        />
+        <img
+          src="assets/imgs/partners02.png"
+          alt="partners"
+          class="img-fluid mx-5"
+        />
+        <img
+          src="assets/imgs/partners03.png"
+          alt="partners"
+          class="img-fluid mx-5"
+        />
+      </div>
+    </section>
+    <!-- End Partners Section -->
+    <!-- Start projects Section -->
+    <section class="projects pt-3 pb-3" id="projects">
+      <div class="container mt-3 mb-3 text-center">
+        <h4 class="font-weight-bolder">Start Your Project Now</h4>
+        <p>
+          Leave your description and we start the engine.Don't worry,you can
+          cancel anytime
+        </p>
+        <a href="#" class="btn rounded-pill text-uppercase mt-5 mb-5"
+          >Start Project</a
+        >
+      </div>
+    </section>
+    <!-- End projects Section -->
+    <!-- Start Blog Section -->
+    <section class="blog" id="blog">
+      <div class="container">
+        <div
+          class="section-title d-flex align-items-center flex-column mt-5 mb-5"
+        >
+          <img
+            class="mb-5"
+            src="assets/imgs/composite-path-yellow.png"
+            alt="composite-path"
+          />
+          <h2 class="text-capitalize">Read Our Blog</h2>
+          <span class="sub-heading text-uppercase">NEW STORIES</span>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-3 box">
+            <div class="card">
+              <img
+                src="assets/imgs/blog-1.jpg"
+                class="card-img-top"
+                alt="Blog Post"
+              />
+              <div class="card-body">
+                <span class="text-black-50">Jan 17, 2022</span>
+                <h5 class="card-title">Some Awesome Blog Title Here</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3 box">
+            <div class="card">
+              <img
+                src="assets/imgs/blog-1.jpg"
+                class="card-img-top"
+                alt="Blog Post"
+                2
+              />
+              <div class="card-body">
+                <span class="text-black-50">Jan 17, 2022</span>
+                <h5 class="card-title">Some Awesome Blog Title Here</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3 box">
+            <div class="card">
+              <img
+                src="assets/imgs/blog-3.jpg"
+                class="card-img-top"
+                alt="Blog Post"
+              />
+              <div class="card-body">
+                <span class="text-black-50">Jan 17, 2022</span>
+                <h5 class="card-title">Some Awesome Blog Title Here</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3 box" data-display="none">
+            <div class="card">
+              <img
+                src="assets/imgs/blog-2.jpg"
+                class="card-img-top"
+                alt="Blog Post"
+              />
+              <div class="card-body">
+                <span class="text-black-50">Jan 17, 2022</span>
+                <h5 class="card-title">Some Awesome Blog Title Here</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3 box" data-display="none">
+            <div class="card">
+              <img
+                src="assets/imgs/blog-2.jpg"
+                class="card-img-top"
+                alt="Blog Post"
+              />
+              <div class="card-body">
+                <span class="text-black-50">Jan 17, 2022</span>
+                <h5 class="card-title">Some Awesome Blog Title Here</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3 box" data-display="none">
+            <div class="card">
+              <img
+                src="assets/imgs/blog-3.jpg"
+                class="card-img-top"
+                alt="Blog Post"
+              />
+              <div class="card-body">
+                <span class="text-black-50">Jan 17, 2022</span>
+                <h5 class="card-title">Some Awesome Blog Title Here</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3 box" data-display="none">
+            <div class="card">
+              <img
+                src="assets/imgs/blog-1.jpg"
+                class="card-img-top"
+                alt="Blog Post"
+              />
+              <div class="card-body">
+                <span class="text-black-50">Jan 17, 2022</span>
+                <h5 class="card-title">Some Awesome Blog Title Here</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3 box" data-display="none">
+            <div class="card">
+              <img
+                src="assets/imgs/blog-1.jpg"
+                class="card-img-top"
+                alt="Blog Post"
+              />
+              <div class="card-body">
+                <span class="text-black-50">Jan 17, 2022</span>
+                <h5 class="card-title">Some Awesome Blog Title Here</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="load-more-btn btn d-flex align-items-center justify-content-center text-uppercase"
+        >
+          MORE STORIES
+        </button>
+      </div>
+    </section>
+    <!-- End Blog Section -->
+    <!-- Start Subscription Section -->
+    <section class="subscription" id="subscription">
+      <div
+        class="container d-flex justify-content-center align-items-center mx-auto pt-5 pb-5"
+      >
+        <strong class="text-capitalize px-3"
+          >Subscribe to our Newsletter:</strong
+        >
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="email w-100 bg-transparent"
+          placeholder="Enter Email Address"
+          required
+        />
+        <input type="submit" value="Subscribe" class="btn rounded-pill px-3" />
+      </div>
+    </section>
+    <!-- End Subscription Section -->
+    <!-- Start Footer Section -->
+    <footer class="footer pt-5 pb-5 text-white-50 text-center text-md-start">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="info mb-5">
+              <img src="assets/imgs/logo.png" alt="logo" class="mb-4" />
+              <p class="mb-5 text-capitalize">
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                justo, lacinia eget consectetur sed, convallis at tellus.
+              </p>
+              <div class="copyright">
+                Created By <span>Graphberry</span> &copy;<span
+                  class="copyright-year"
+                ></span>
+                -
+                <br />
+                <span class="company">Bondi Inc</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="links">
+              <h5 class="text-light">Links</h5>
+              <ul class="list-unstyled lh-lg">
+                <li>
+                  <a class="text-decoration-none" href="#">Home</a>
+                </li>
+                <li>
+                  <a class="text-decoration-none" href="#">Our Services</a>
+                </li>
+                <li><a class="text-decoration-none" href="#">Portfolio</a></li>
+                <li>
+                  <a class="text-decoration-none" href="#">Testimonials</a>
+                </li>
+                <li><a class="text-decoration-none" href="#">Support</a></li>
+                <li>
+                  <a class="text-decoration-none" href="#"
+                    >Terms and Condition</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="links">
+              <h5 class="text-light">About Us</h5>
+              <ul class="list-unstyled lh-lg">
+                <li><a class="text-decoration-none" href="#">Sign In</a></li>
+                <li><a class="text-decoration-none" href="#">Register</a></li>
+                <li><a class="text-decoration-none" href="#">About Us</a></li>
+                <li><a class="text-decoration-none" href="#">Blog</a></li>
+                <li><a class="text-decoration-none" href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="contact">
+              <h5 class="text-light">Contact Us</h5>
+              <p class="lh-lg mt-3 mb-5 text-capitalize">
+                Get in touch with us via mail phone.We are waiting for your call
+                or message
+              </p>
+              <a class="btn rounded-pill main-btn w-100" href="mailto:#"
+                >bondiInc@gmail.com</a
+              >
+              <ul
+                class="d-flex mt-5 list-unstyled gap-3 justify-content-center"
+              >
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-youtube fa-lg youtube rounded-circle p-2"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <!-- javaScript -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
