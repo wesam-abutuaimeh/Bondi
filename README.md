@@ -6,11 +6,11 @@
 - HTML5
 - CSS3
 - JS  ES6+7
-<br>
-Frameworks
-- <li>Bootstrap</li><br>
-Libraries
-- <li>Font Awesome</li>
-- <li>Google Fonts</li>
+- Bootstrap
+- Font Awesome
+- Google Fonts
+- Adobe XD
+- Visual Studio Code 
+- Git & GitHub
 
 ### <a href="https://bondi-design.netlify.app/">Demo Live</a>
